@@ -6,7 +6,7 @@ import cv2 #procesamiento de imagenes igual que pyplot
 from matplotlib import pyplot
 from mtcnn.mtcnn import MTCNN
 import numpy as np #operaciones con matrices
-
+prueba mercurial
 #------------------------ Crearemos una funcion que se encargara de registrar el usuario ---------------------
 
 def registrar_usuario():
@@ -17,6 +17,7 @@ def registrar_usuario():
     archivo.write(usuario_info + "\n")   #escribimos la info
     archivo.write(contra_info)
     archivo.close()
+    
 
     #Limpiaremos los text variable
     usuario_entrada.delete(0, END)
